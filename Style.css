@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  font: arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 113px;
+}
+
+.logo {
+  background-image: url("https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg");
+  height: 50px;
+  width: 90%;
+  background-size: cover;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 1.4px solid white;
+  border-radius: 4%;
+}
+
+/* box2 */
+
+.add-first {
+  color: #cccccc;
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+
+.add-sec {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.address-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* box3 */
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 650px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.search-select {
+  background-color: #e6e6e6;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 14px;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #0f1111;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.search-icon:hover {
+  background-color: orange;
+}
+
+.nav-search:hover {
+  border: 2px solid #febd68;
+}
+
+/* box5 */
+
+.nav-signin {
+  display: felx;
+}
+
+.hello {
+  font-size: 14px;
+}
+
+.account {
+  font-size: 16px;
+}
+
+.account-icon {
+  display: flex;
+}
+
+.down-icon {
+  color: grey;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+/* box6 */
+
+.returns {
+  font-size: 14px;
+}
+.orders {
+  font-size: 16px;
+}
+
+/* box 7 */
+
+.nav-cart {
+  display: flex;
+}
+
+.cart-icon {
+  font-size: 29px;
+  font-weight: 70;
+}
+
+.cart {
+  justify-content: center;
+  align-self: end;
+}
+
+/* head */
+
+.nav-shop {
+  height: 36.8px;
+  background-color: #1e2c2c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 5px 0px 6px;
+  padding: 8px 12px;
+}
+
+.all-icon {
+  margin: 4px;
+}
+
+.amazon-deals {
+  margin: 5px 0px 6px;
+  padding: 8px 12px;
+}
+
+.service {
+  margin: 5px 0px 6px;
+  padding: 8px 12px;
+}
+
+.regester {
+  margin: 5px 0px 6px;
+  padding: 8px 12px;
+}
+
+.cards {
+  margin: 5px 0px 6px;
+  padding: 8px 12px;
+}
+
+.sell {
+  margin: 5px 0px 6px;
+  padding: 8px 12px;
+}
+
+
+/*  ------------------------------------------------MAIN-------------------------------------------------------*/
+/* image */
+
+.hey {
+  background-image: url(amazon.jpg);
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.amazon-in {
+  background-color: #f5f6f6;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 284px;
+  height: 43px;
+  width: 90%;
+  align-items: center;
+}
+
+.click-here {
+  text-decoration: none;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 350px;
+  width: 20%;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box1-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/MothersDay24/Fuji_Mothers_day_Dashboard_card_1x._SY304_CB559063668_.jpg");
+  background-size: cover;
+  height: 280px;
+}
+
+.box2-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg");
+  background-size: cover;
+  height: 280px;
+}
+
+.box3-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg");
+  background-size: cover;
+  height: 280px;
+}
+
+.box4-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg");
+  background-size: cover;
+  height: 280px;
+}
+
+.box5-img {
+  background-image: url("https://m.media-amazon.com/images/I/41xGPP-+3ZL._AC_SY230_.jpg");
+  background-size: cover;
+  height: 280px;
+}
+
+.box6-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg");
+  background-size: cover;
+  height: 280px;
+}
+
+.box7-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg");
+  background-size: cover;
+  height: 280px;
+}
+
+.box8-img {
+  background-image: url("https://m.media-amazon.com/images/I/41krkz-ai7L._AC_SY200_.jpg");
+  background-size: cover;
+  height: 280px;
+}
+
+body {
+  height: 2500px;
+}
+
+hr {
+  color: #0f1111;
+  font-size: 1px;
+}
+
+.sign-in {
+  text-align: center;
+  background-color: #ffffff;
+  height: 100px;
+}
+
+.first {
+  font-size: 14px;
+}
+
+.second {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.start2 {
+  text-decoration: none;
+}
+
+.button1 {
+  width: 260px;
+  background-color: #febd61;
+  border: #febd68;
+  border-radius: 3px;
+}
+
+.button1:hover {
+  background-color: #dcb582;
+}
+
+/* ----------------------------------------------------------FOOTER-------------------------------------------- */
+
+.last {
+  color: #ffffff;
+  background-color:#313f50;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.last2 {
+  height: 320px;
+  background-color:#232f3e;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.my {
+  margin: 10px;
+}
+
+.last3{
+  height: 100px;
+  background-color: #232f3e ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amazon-img2 {
+  margin: 70px;
+  
+}
+
+.english {
+  
+}
+
+button{
+  height: 35px;
+  background-color:#232f3e;
+  border: 1px solid white;
+  color: white;
+  width: 150px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #081313;
+}
+
+
+
+
+
+
+
+
+
